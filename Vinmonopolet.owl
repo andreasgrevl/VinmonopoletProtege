@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/andreasgrevle/ontologies/2019/8/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/andreasgrevle/ontologies/2019/8/untitled-ontology-10">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ChampagneAnnenMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChampagneBrutMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChampagneRoseMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChampagneSecMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChampagneextraBrutMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FastFruktigRødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FatogFruktHvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FetogFloralHvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FriskogFruktigRødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FyldigogSaftigRødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KrysdretogSødmefullRødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LettogFriskHvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MadeiraSterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusserendeRoseMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MusserendeVinMusserende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PortvinSterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SaftigogFriskHvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SherrySterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SterkvinSterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UtvikletogNyansertHvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UtvikletogNyansertRødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VermutSterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Øl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlBarleywine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlBrownAle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlHveteøl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlIPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlKlosterstil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlLysAle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlLyslager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlMørkLager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlPaleAle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlPorterStout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlRedamber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlSaisonfarmhouseale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlSpesial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ØlSurøl"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ChampagneAnnenMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChampagneBrutMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChampagneRoseMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChampagneSecMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChampagneextraBrutMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FastFruktigRødvin"/>
+        <Class IRI="#Rødvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FatogFruktHvitvin"/>
+        <Class IRI="#Hvitvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FetogFloralHvitvin"/>
+        <Class IRI="#Hvitvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FriskogFruktigRødvin"/>
+        <Class IRI="#Rødvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FyldigogSaftigRødvin"/>
+        <Class IRI="#Rødvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KrysdretogSødmefullRødvin"/>
+        <Class IRI="#Rødvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LettogFriskHvitvin"/>
+        <Class IRI="#Hvitvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MadeiraSterkvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MusserendeRoseMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MusserendeVinMusserende"/>
+        <Class IRI="#Musserende"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PortvinSterkvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaftigogFriskHvitvin"/>
+        <Class IRI="#Hvitvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SherrySterkvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SterkvinSterkvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UtvikletogNyansertHvitvin"/>
+        <Class IRI="#Hvitvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UtvikletogNyansertRødvin"/>
+        <Class IRI="#Rødvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VermutSterkvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlBarleywine"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlBrownAle"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlHveteøl"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlIPA"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlKlosterstil"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlLysAle"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlLyslager"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlMørkLager"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlPaleAle"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlPorterStout"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlRedamber"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlSaisonfarmhouseale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlSpesial"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ØlSurøl"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ChampagneAnnenMusserende"/>
+        <Class IRI="#ChampagneBrutMusserende"/>
+        <Class IRI="#ChampagneRoseMusserende"/>
+        <Class IRI="#ChampagneSecMusserende"/>
+        <Class IRI="#ChampagneextraBrutMusserende"/>
+        <Class IRI="#MusserendeRoseMusserende"/>
+        <Class IRI="#MusserendeVinMusserende"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FastFruktigRødvin"/>
+        <Class IRI="#FriskogFruktigRødvin"/>
+        <Class IRI="#FyldigogSaftigRødvin"/>
+        <Class IRI="#KrysdretogSødmefullRødvin"/>
+        <Class IRI="#UtvikletogNyansertRødvin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FatogFruktHvitvin"/>
+        <Class IRI="#FetogFloralHvitvin"/>
+        <Class IRI="#LettogFriskHvitvin"/>
+        <Class IRI="#SaftigogFriskHvitvin"/>
+        <Class IRI="#UtvikletogNyansertHvitvin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Musserende"/>
+        <Class IRI="#Rosevin"/>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Sterkvin"/>
+        <Class IRI="#Øl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Musserende"/>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Sterkvin"/>
+        <Class IRI="#Øl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Sterkvin"/>
+        <Class IRI="#Øl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MadeiraSterkvin"/>
+        <Class IRI="#PortvinSterkvin"/>
+        <Class IRI="#SherrySterkvin"/>
+        <Class IRI="#SterkvinSterkvin"/>
+        <Class IRI="#VermutSterkvin"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
